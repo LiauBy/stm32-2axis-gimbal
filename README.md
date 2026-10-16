@@ -474,6 +474,12 @@ PitchF = a * PitchF + (1.0f - a) * IMU_Pitch;
 
 ---
 
+## 👥 关于本项目
+
+本项目为**两人合作开发**，本仓库是其中一位开发者（[@LiauBy](https://github.com/LiauBy)）维护的版本；合作者维护其独立仓库，两者各自演进。
+
+---
+
 ## 🙏 致谢与参考
 
 - **STM32 标准外设库 / CMSIS**：STMicroelectronics、ARM Limited（文件头版权声明均原样保留）
@@ -484,7 +490,7 @@ PitchF = a * PitchF + (1.0f - a) * IMU_Pitch;
 
 ### 素材说明
 
-仓库内所有图片（`docs/实物图.jpg`）与结构件（`mechanical/*.stl`）均为**作者自行拍摄 / 自行设计**。
+仓库内所有图片（`docs/实物图.jpg`）与结构件（`mechanical/*.stl`）均为**本项目自行拍摄 / 自行设计**。
 未收录任何第三方图片、厂商工程图或截图。
 
 若无特别说明，本仓库**源码部分**采用 MIT 许可；`Library/`、`Start/` 下的 ST / ARM 官方文件仍遵循其原始许可，版权归原权利人所有。
