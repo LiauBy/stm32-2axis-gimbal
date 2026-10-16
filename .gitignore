@@ -1,0 +1,46 @@
+# ===== Keil MDK 构建产物 =====
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.lnp
+*.map
+*.lst
+*.iex
+*.htm
+*.plg
+*.build_log.htm
+*.scvd
+
+# ===== Keil 用户级配置（含窗口布局、断点路径、历史打开者）=====
+*.uvguix.*
+Project.uvoptx
+*.bak
+*_bak
+
+# ===== 个人笔记（不进开源仓库）=====
+云台项目_代码说明与复习笔记.md
+
+# ===== 演示视频（暂不纳入仓库，需要时删掉此行）=====
+docs/demo.mp4
+
+# ===== AI / 编辑器 / 系统 =====
+.workbuddy/
+.vscode/
+.idea/
+.clangd/
+.clang-format
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 临时文件 =====
+*.tmp
+*.log
+*.7z
+*.rar
+*.zip
